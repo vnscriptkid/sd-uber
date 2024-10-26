@@ -9,3 +9,6 @@
     - 1 dimension (x) is easy
 
 - Idea: Transform 2D problem into 1D problem
+
+# Interactive
+- https://opendsa-server.cs.vt.edu/ODSA/Books/vt/cs3114/summer-ii-2022/MTR_2pm/html/PRquadtree.html
