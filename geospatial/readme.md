@@ -12,3 +12,7 @@
 
 # Interactive
 - https://opendsa-server.cs.vt.edu/ODSA/Books/vt/cs3114/summer-ii-2022/MTR_2pm/html/PRquadtree.html
+
+# Basics
+- Longitude / Latitude
+<img width="566" alt="Screenshot 2024-11-02 at 8 51 47 PM" src="https://github.com/user-attachments/assets/b3b87678-2307-463b-bb94-dee789eac4fb">
