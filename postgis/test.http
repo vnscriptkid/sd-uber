@@ -1,0 +1,20 @@
+### Create driver
+POST http://localhost:8080/drivers
+Content-Type: application/json
+
+{
+    "latitude": 37.7749,
+    "longitude": -122.4194
+}
+
+### Update driver location
+PUT http://localhost:8080/drivers/1/location
+Content-Type: application/json
+
+{
+    "latitude": 37.7750,
+    "longitude": -122.4195
+}
+
+### Find nearby drivers
+GET http://localhost:8080/drivers/nearby?latitude=37.7749&longitude=-122.4194&radius=5
