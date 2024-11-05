@@ -29,7 +29,10 @@ func initDB() {
 	db.AutoMigrate(&Driver{})
 
 	// Create a spatial index on the location column
-	db.Exec("CREATE INDEX idx_drivers_location ON drivers USING GIST(location)")
+	// db.Exec("CREATE INDEX idx_drivers_location ON drivers USING GIST(location)")
+
+	// Alternatively, use SP-GiST (Space-Partitioned GiST)
+	db.Exec("CREATE INDEX idx_drivers_location ON drivers USING SPGIST(location)")
 
 }
 
