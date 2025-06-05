@@ -1,5 +1,11 @@
 # Geohash Redis
 
+## Setup redis
+```bash
+redis-server
+redis-cli
+```
+
 ## Add driver locations
 ```bash
 GEOADD drivers:locations 105.8542 21.0285 driver:1   # Hanoi
